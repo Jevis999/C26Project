@@ -1,7 +1,7 @@
 function checkForWinner() {
   console.log("checking for winner...")
   var winner
-  var playerOne = getPlayerOne() //playerOne is always blue!
+  var playerOne = getPlayerOne() //playerOne is always Blue!
     //console.log('checkForWinner, playerOne is: ', playerOne)
 var computer = (playerOne === "X") ? "O" : "X"
 //there are 8 winningCombos: 
@@ -15,7 +15,7 @@ var computer = (playerOne === "X") ? "O" : "X"
   var blueWin6 = $("#three.blue, #six.blue, #nine.blue").length === 3
   var blueWin7 = $("#one.blue, #five.blue, #nine.blue").length === 3
   var blueWin8 = $("#seven.blue, #five.blue, #three.blue").length === 3
-var redWin1 = $("#one.red, #two.red, #three.red").length === 3
+var redWin1 = $("#one.red, #two.red, #three.red").length === 3 
   var redWin2 = $("#four.red, #five.red, #six.red").length === 3
   var redWin3 = $("#seven.red, #eight.red, #nine.red").length === 3
   var redWin4 = $("#one.red, #four.red, #seven.red").length === 3
